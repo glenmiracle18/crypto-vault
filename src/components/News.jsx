@@ -5,17 +5,17 @@ import { cryptoNewsApi, useGetCryptoNewsQuery } from '../services/cryptoNewsApi'
 import { useGetCryptosQuery } from '../services/cryptoApi';
 
 import moment from 'moment';
+import Loader from './Loader';
 
 const { Text, Title } = Typography;
 const { Option } = Select;
 
-const demoImage = 'http://coinrevolution.com/wp-content/uploads/2020/06/cryptonews.jpg'
-
 
 const News = ({ simplified }) => {
+    const demoImage = 'http://coinrevolution.com/wp-content/uploads/2020/06/cryptonews.jpg'
     const {data} = useGetCryptosQuery(100);
 
-    const [newsCategory, setnewsCategory] = useState()
+    const [newsCategory, setnewsCategory] = useState('cryptocurrency')
     const [loading, setLoading] = useState(true);
     const { data: cryptoNews } = useGetCryptoNewsQuery({ 
         newsCategory,
@@ -31,7 +31,7 @@ const News = ({ simplified }) => {
     console.log(cryptoNews);
 
 
-    if (loading) return 'Loading...';    
+    if (loading) return <Loader />    
     if (!cryptoNews?.news) return 'Loading News Items...'
 
 
@@ -45,12 +45,12 @@ const News = ({ simplified }) => {
                     placeholder='Select a Crypto'
                     optionFilterProp='children'
                     onChange={(value) => setnewsCategory(value)}
-                    filterOption={(input, option) => option.children.towerCase().indexOf(input.toLowerCase())}
+                    filterOption={(input, option) => option.children.toLowerCase().indexOf(input.toLowerCase())}
                     >
-                        <Option value='Cryptocurrency'>Cryptocurrency</Option>
+                        <Option value='crypto'>Cryptocurrency</Option>
                         {data?.data?.coins.map((coin) => <Option value={coin.name}>{coin.name}</Option>)}
                     </Select>
-                </Col>
+                </Col> 
             )}
 
             {cryptoNews?.news.map((news, i) => (
@@ -58,17 +58,17 @@ const News = ({ simplified }) => {
                     <Card hoverable className="news-card">
                         <a href={news.Url} target="_blank" rel="noreferrer">
                             <div className="news-image-container">
-                                <Title className="news-title" level={4}>
-                                {news?.Title.lenght > 10 
-                                    ? `${news?.Title.substring(0, 10)}...`
+                                <Title className="news-title" level={5}>
+                                {news?.Title.length > 60 
+                                    ? `${news?.Title.substring(0, 60)}...`
                                     : news?.Title
                                 }
                                 </Title>
                                 <img style={{ maxWidth: '100px', maxHeight: '100px'}} src={news?.Image || demoImage} alt="" />
                             </div>
                             <p>
-                                {news?.Summary.lenght > 100 
-                                    ? `${news?.Summary.substring(0, 100)}...`
+                                {news?.Summary.length > 200 
+                                    ? `${news?.Summary.substring(0, 200)}...`
                                     : news?.Summary
                                 }
                             </p>

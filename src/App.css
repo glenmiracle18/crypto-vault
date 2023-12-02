@@ -25,7 +25,7 @@ a:hover{
 
 .navbar{
     flex: 0.2;
-    background-color: rgb(0, 21, 41);
+    background-color: #5ac40e;
 }
 
 .main{
@@ -42,11 +42,11 @@ a:hover{
     margin: 10px;
     height: 100vh;
     margin: 0px;
-    background-color: rgb(0, 21, 41);
+    background-color: #5ac40e;
 }
 
 .logo-container{
-    background-color: #001529;
+    background-color: #5ac40e;
     display: flex;
     padding: 20px;
     /* align-items: center; */
@@ -131,11 +131,18 @@ a:hover{
     }
     .show-more{
         font-size: 1.3rem !important;
+        color: #5ac40e;
     }
 }
 
 .coin-detail-container{
     margin: 30px;
+}
+
+.menu-link {
+    text-align: center;
+    color: #F9F9F9;
+    font-size: large;
 }
 
 .coin-heading-container{
@@ -348,6 +355,7 @@ width: 70%;
 }
 .show-more{
     margin-top: 0px !important;
+    color: #5ac40e;
 }
 .exchange-image{
     margin: 0px 10px !important;
@@ -371,9 +379,10 @@ width: 70%;
 }
 
 .footer {
-    background-color: #001529;
+    background-color: #5ac40e;
     display: flex;
     flex-direction: column;
     padding: 20px;
+    justify-content: space-between;
     align-items: center;
 }
