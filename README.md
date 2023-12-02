@@ -111,7 +111,7 @@ Project Link: [https://github.com/glenmiracle18/crypto-vault](https://github.com
 
 ## :gem: Acknowledgements
 
-Use this section to mention useful resources and libraries that you have used in your projects.
+The following technologies really helped me out in this project:
 
 - [Rapid API](Postman)
 - [Coinranking](https://rapidapi.com/Coinranking/api/coinranking1)
