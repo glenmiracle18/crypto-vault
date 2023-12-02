@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+<div align='center'>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>Crypto Data App</h1>
+<p>A web app, where you can find out about the current crypto market trends and analysis, with world class crypto news.</p>
 
-## Available Scripts
+<h4> <span> · </span> <a href="https://github.com/glenmiracle18/crypto-vault /blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/glenmiracle18/crypto-vault /issues"> Report Bug </a> <span> · </span> <a href="https://github.com/glenmiracle18/crypto-vault /issues"> Request Feature </a> </h4>
 
-In the project directory, you can run:
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# :notebook_with_decorative_cover: Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [About the Project](#star2-about-the-project)
+- [Roadmap](#compass-roadmap)
+- [License](#warning-license)
+- [Contact](#handshake-contact)
+- [Acknowledgements](#gem-acknowledgements)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :star2: About the Project
 
-### `npm run build`
+### :camera: Screenshots
+<div align="center"> <a href=""><img src="/screenshots/img1" alt='image' width='800'/></a> </div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### :dart: Features
+- Crypto Market News
+- Crypto Analysis
+- Exchange Market Data
+- Future crypto trends
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### :art: Color Reference
+| Color | Hex |
+| --------------- | ---------------------------------------------------------------- |
+| Primary Color | ![#43925c](https://via.placeholder.com/10/43925c?text=+) #43925c |
+| Secondary Color | ![#393E46](https://via.placeholder.com/10/393E46?text=+) #393E46 |
+| Accent Color | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
+| Text Color | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## :toolbox: Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### :gear: Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Clone this repository
+```bash
+git clone https://github.com/glenmiracle18/crypto-vault
+```
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### :running: Run Locally
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Clone the project
 
-### Code Splitting
+```bash
+https://github.com/glenmiracle18/crypto-vault
+```
+Go to the project dir
+```bash
+cd crypto-vault
+```
+Install required dependencies
+```bash
+npm install i
+```
+Run the app
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+### :triangular_flag_on_post: Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+You can choose to deploy this project using Docker or any other service!
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## :compass: Roadmap
 
-### Advanced Configuration
+* [x] System Design
+* [x] UI Design
+* [x] Dev environment preparation
+* [x] Install Depedencies
+* [x] Code the Front End
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## :wave: Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<a href="https://github.com/glenmiracle18/crypto-vault/graphs/contributors"> <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" /> </a>
 
-### `npm run build` fails to minify
+Contributions are always welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+see `contributing.md` for ways to get started
+
+### :scroll: Code of Conduct
+
+Please read the [Code of Conduct](https://github.com/glenmiracle18/crypto-vault/blob/master/CODE_OF_CONDUCT.md)
+
+## :warning: License
+
+Distributed under the no License. See LICENSE.txt for more information.
+
+## :handshake: Contact
+
+Glen Miracle - - m.bonyu@alustudent.com
+
+Project Link: [https://github.com/glenmiracle18/crypto-vault](https://github.com/glenmiracle18/crypto-vault)
+
+## :gem: Acknowledgements
+
+Use this section to mention useful resources and libraries that you have used in your projects.
+
+- [Rapid API](Postman)
+- [Coinranking](https://rapidapi.com/Coinranking/api/coinranking1)
+- [Github](https://www.github.com)
+- [AntDesign](https://ant.design/components/collapse)
+- [ChartJs](https://www.chartjs.org/docs/latest/charts/mixed.html)
